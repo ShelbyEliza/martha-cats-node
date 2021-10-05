@@ -11,7 +11,7 @@ header {
   text-align: center;
 }
 .main-title {
-  color:#f3d595;
+  color: #f3d595;
   font-size: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -29,15 +29,15 @@ nav li {
   list-style-type: none;
 
   width: 50%;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 
   box-shadow: 0 0 0 1px rgb(62, 75, 80);
 }
 
 nav a:link,
 nav a:visited {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   color: #1f2222;
   text-decoration: none;
 }
@@ -50,21 +50,28 @@ nav a:visited:active {
 }
 
 body {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 1.8em;
-  color:rgb(51, 51, 51)
+  color: rgb(51, 51, 51);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.6em;
   font-weight: normal;
   font-style: normal;
 }
 
-h2, button, .label {
-  font-family: 'Quicksand';
+h2,
+button,
+.label {
+  font-family: "Quicksand";
 }
 
 img {
@@ -82,7 +89,7 @@ img {
   padding-bottom: 60px;
 }
 .page-title {
-  font-family: 'WindSong', cursive;
+  font-family: "WindSong", cursive;
 }
 .content {
   background-color: rgb(102, 143, 145);
@@ -102,12 +109,13 @@ img {
   flex: 1;
 
   text-align: center;
-  background-color:rgb(61, 112, 82);
+  background-color: rgb(61, 112, 82);
 
   padding: 65px;
   box-shadow: 0 0 0 3px rgb(62, 75, 80);
 }
-.footer-one, .footer-three {
+.footer-one,
+.footer-three {
   background-color: rgb(102, 143, 145);
   flex: initial;
   width: 300px;
@@ -115,6 +123,7 @@ img {
 .greeting {
   font-size: 22px;
   padding-bottom: 1em;
+  padding-top: 5em;
 }
 .label {
   font-weight: 700;
